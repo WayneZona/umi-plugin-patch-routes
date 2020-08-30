@@ -1,0 +1,14 @@
+{
+  "name": "umi-plugin-patch-routes",
+  "version": "1.0.0",
+  "description": "Protocol routing support permission",
+  "main": "index.js",
+  "author": "Wayne",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "father-build": "^1.8.0",
+    "np": "^5.0.3",
+    "umi": "^3.0.18"
+  },
+  "license": "MIT"
+}
