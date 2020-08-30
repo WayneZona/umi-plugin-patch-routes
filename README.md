@@ -2,7 +2,7 @@
 
 # umi-plugin-patch-routes
 
-[![NPM version](https://img.shields.io/npm/v/umi-plugin-patch-routes.svg?style=flat)](https://npmjs.org/package/umi-plugin-patch-routes) [![NPM downloads](http://img.shields.io/npm/dm/umi-plugin-patch-routes.svg?style=flat)](https://npmjs.org/package/umi-plugin-patch-routes)
+[![NPM version](https://img.shields.io/npm/v/umi-plugin-convention-patch-routes.svg?style=flat)](https://npmjs.org/package/umi-plugin-convention-patch-routes) [![NPM downloads](http://img.shields.io/npm/dm/umi-plugin-convention-patch-routes.svg?style=flat)](https://npmjs.org/package/umi-plugin-convention-patch-routes)
 
 
 ## Notice
