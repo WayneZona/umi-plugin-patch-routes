@@ -1,14 +1,29 @@
 {
-  "name": "umi-plugin-patch-routes",
+  "name": "umi-plugin-convention-patch-routes",
   "version": "1.0.0",
   "description": "Protocol routing support permission",
-  "main": "index.js",
+  "keywords": [
+    "Convention Routing",
+    "access",
+    "Ant design pro",
+    "AntdPro"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "k-tools compile --no-babel-runtime",
+    "prepublishOnly": "npm run compile --no-babel-runtime",
+    "pub": "npm publish  & git push",
+    "ppub": "npm version patch && npm run pub"
+  },
   "author": "Wayne",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
-    "@types/node": "^12.12.14",
-    "father-build": "^1.8.0",
-    "np": "^5.0.3",
-    "umi": "^3.0.18"
+    "@types/node": "^13.7.7",
+    "@umijs/core": "^3.2.3",
+    "k-tools": "^0.2.0",
+    "umi": "^3.2.3"
   },
   "license": "MIT"
 }
